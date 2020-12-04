@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+
+
+
+		<div class="input-group mb-3">
+			<div class="input-group-prepend">
+				<span class="input-group-text">With textarea</span>
+			</div>
+			<textarea class="form-control" aria-label="With textarea"></textarea>
+		</div>
+
+
+
+		<div class="accordion" id="accordionExample">
+			<div class="card">
+				<div class="card-header" id="headingOne">
+					<h5 class="mb-0 row">
+						<button class="btn btn-block btn-lg" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Разворачиваемая панель #1
+						</button>
+					</h5>
+				</div>
+
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+					<div class="card-body">
+						<div class="accordion" id="accordionExample1_1">
+							<div class="card">
+								<div class="card-header" id="headingOneOne">
+									<h5 class="mb-0">
+										<button class="btn btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseOneOne" aria-expanded="false" aria-controls="collapseOneOne">
+											Плиточные работы
+										</button>
+									</h5>
+								</div>
+
+								<div id="collapseOneOne" class="collapse" aria-labelledby="headingOneOne" data-parent="#accordionExample1_1">
+									<div class="card-body">
+										<div class="accordion" id="add">
+											<div id="headingadd">
+												<button type="button" class="btn btn-primary mb-1" data-toggle="collapse" data-target="#collapseadd" aria-expanded="false" aria-controls="collapseadd">➕</button>
+												<div id="collapseadd" class="collapse" aria-labelledby="headingadd" data-parent="#add">
+													<div class="input-group mb-1">
+														<input type="text" class="form-control col-1" id="1" data-name="second">
+														<input type="text" class="form-control col-2" id="1" data-name="second">
+														<input type="text" class="form-control" id="1" data-name="second">
+														<input type="text" class="form-control" id="1" data-name="second">
+														<input type="text" class="form-control" id="1" data-name="second">
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="input-group mb-1">
+											<div class="input-group-prepend">
+												<span class="input-group-text">1</span>
+											</div>
+											<div class="input-group-append">
+												<span class="input-group-text">Грунтовка стяжки под плитку</span>
+											</div>
+											<input type="text" class="form-control" id="1" data-name="first">
+											<div class="input-group-append">
+												<span class="input-group-text">грн</span>
+											</div>
+											<input type="text" class="form-control" id="1" data-name="second">
+											<div class="input-group-append">
+												<span class="input-group-text">м²</span>
+											</div>
+											<div class="input-group-append">
+												<span class="input-group-text answer" id="1">Ответ</span>
+											</div>
+										</div>
+
+										<div class="input-group mb-1">
+											<div class="input-group-prepend">
+												<span class="input-group-text">2</span>
+											</div>
+											<div class="input-group-append">
+												<span class="input-group-text">Резка плитки, шлифовка кромок</span>
+											</div>
+											<input type="text" class="form-control" id="2" data-name="first">
+											<div class="input-group-append">
+												<span class="input-group-text">грн</span>
+											</div>
+											<input type="text" class="form-control" id="2" data-name="second">
+											<div class="input-group-append">
+												<span class="input-group-text">м.пог.</span>
+											</div>
+											<div class="input-group-append">
+												<span class="input-group-text answer" id="2">Ответ</span>
+											</div>
+										</div>
+
+										<div class="input-group mb-1">
+											<div class="input-group-prepend">
+												<span class="input-group-text">3</span>
+											</div>
+											<div class="input-group-append">
+												<span class="input-group-text">Установка уголков при укладке плитки</span>
+											</div>
+											<input type="text" class="form-control" id="3" data-name="first">
+											<div class="input-group-append">
+												<span class="input-group-text">грн</span>
+											</div>
+											<input type="text" class="form-control" id="3" data-name="second">
+											<div class="input-group-append">
+												<span class="input-group-text">м.пог.</span>
+											</div>
+											<div class="input-group-append">
+												<span class="input-group-text answer" id="3">Ответ</span>
+											</div>
+										</div>
+
+										<div class="input-group mb-1">
+											<div class="input-group-prepend">
+												<span class="input-group-text">4</span>
+											</div>
+											<div class="input-group-append">
+												<span class="input-group-text">Укладка плитки на пол</span>
+											</div>
+											<input type="text" class="form-control" id="4" data-name="first">
+											<div class="input-group-append">
+												<span class="input-group-text">грн</span>
+											</div>
+											<input type="text" class="form-control" id="4" data-name="second">
+											<div class="input-group-append">
+												<span class="input-group-text">м²</span>
+											</div>
+											<div class="input-group-append">
+												<span class="input-group-text answer" id="4">Ответ</span>
+											</div>
+										</div>
+
+										<div class="input-group mb-1">
+											<div class="input-group-prepend">
+												<span class="input-group-text">5</span>
+											</div>
+											<div class="input-group-append">
+												<span class="input-group-text">Укладка плитки на стены</span>
+											</div>
+											<input type="text" class="form-control" id="4" data-name="first">
+											<div class="input-group-append">
+												<span class="input-group-text">грн</span>
+											</div>
+											<input type="text" class="form-control" id="4" data-name="second">
+											<div class="input-group-append">
+												<span class="input-group-text">м²</span>
+											</div>
+											<div class="input-group-append">
+												<span class="input-group-text answer" id="4">Ответ</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<html>
+<head>
+	<title>Index</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 order-md-2 mb-4">
+				<h4 class="d-flex justify-content-between align-items-center mb-3">
+        <span class="text-muted">Базовый тарив</span>
+        <span class="badge badge-secondary badge-pill">4</span>
+      </h4>
+      <ul class="list-group mb-3">
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Зона 1</h6>
+            <small class="text-muted">Вес, кг. 0 - 20</small>
+          </div>
+          <span class="text-muted">400 руб.</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Зона 2</h6>
+            <small class="text-muted">Вес, кг. 0 - 20</small>
+          </div>
+          <span class="text-muted">650 руб.</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Зона 3</h6>
+            <small class="text-muted">Вес, кг. 0 - 20</small>
+          </div>
+          <span class="text-muted">900 руб.</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Зона 4</h6>
+            <small class="text-muted">Вес, кг. 0 - 20</small>
+          </div>
+          <span class="text-muted">1200 руб.</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Всего (Рублей)</span>
+          <strong id="answer">0 руб.</strong>
+        </li>
+      </ul>
+
+
+      <form class="card p-2">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Promo code">
+          <div class="input-group-append">
+            <button type="submit" class="btn btn-secondary">Redeem</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">Форма заявки</h4>
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">Имя</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Фамилия</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Valid last name is required.
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="username">Номер телефона</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">➕</span>
+            </div>
+            <input type="text" class="form-control" required>
+            <div class="invalid-feedback" style="width: 100%;">
+              Your username is required.
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="address">Адрес</label>
+          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+          <div class="invalid-feedback">
+            Please enter your shipping address.
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <label for="country">Зона</label>
+            <select class="custom-select d-block w-100" id="country" required>
+              <option>Зона 1</option>
+              <option>Зона 2</option>
+              <option>Зона 3</option>
+              <option>Зона 4</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid country.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="zip">Улица</label>
+            <input type="text" class="form-control" id="zip" placeholder="" required>
+            <div class="invalid-feedback">
+              Zip code required.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="zip">Время доставки</label>
+            <input type="text" class="form-control" id="zip" placeholder="" required>
+            <div class="invalid-feedback">
+              Zip code required.
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <label for="country">Текст</label>
+        <div class="input-group">
+        	<textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="file.js"></script>
+</body>
+</html>
